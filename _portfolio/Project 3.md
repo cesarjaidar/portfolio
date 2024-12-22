@@ -1,7 +1,7 @@
 ---
 title: "OpenAI - API Text"
-excerpt: "Example of how to call an OpenAI's API and parse as JSON 1<br/><img src='/images/500x300.png'>"
+excerpt: "Develop an API that generates blog posts, product descriptions, or social media content using an LLM like GPT."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Users can input a topic or a few keywords, and the API returns fully structured text. This project can include features like tone adjustment, word count control, and style customization.
