@@ -1,6 +1,6 @@
 ---
 title: "Image Classification for Wildlife Conservation"
-excerpt: "Develop a deep learning model to classify and detect animal species in camera trap images.<br/><img src='/images/500x300.png'>"
+excerpt: "Develop a deep learning model to classify and detect animal species in camera trap images."
 collection: portfolio
 ---
 
