@@ -1,19 +1,27 @@
 ---
-title: "Stock Price Analysis and Forecasting of Top Video Game Companies"
-excerpt: "Time-series analysis and machine learning techniques to visualize, forecast, and predict stock price trends using ARIMA and LSTM models."
+title: "Text and Sentiment Analysis Using Logistic Regression and KNN"
+excerpt: "A comprehensive project applying sentiment analysis and classification models to movie reviews, utilizing logistic regression and KNN to predict review sentiment."
 collection: portfolio
 ---
 Description:
-This project involves analyzing stock price trends of top video game companies using Python. It covers data visualization, ARIMA modeling, and LSTM neural networks to predict future stock prices. Key highlights include:
 
-📊 Visualization of stock price and trading volume trends.
+This project performs sentiment analysis and classification on movie reviews using custom text preprocessing and machine learning models. Key components include:
 
-🔍 ARIMA modeling for time-series forecasting.
+🧹 Text Preprocessing:
+Lowercasing, punctuation removal, stopword elimination, and stemming (PorterStemmer).
 
-🧠 LSTM neural network to predict stock price movements.
+📚 Feature Engineering:
+Bag-of-Words (BoW) and TF-IDF representations of movie reviews.
 
-📈 Regression analysis to identify key drivers of stock performance.
+📊 Model Training:
+Logistic Regression and K-Nearest Neighbors (KNN) trained using the TF-IDF matrix.
 
-The project showcases end-to-end data analysis, machine learning, and predictive modeling, providing valuable insights into the financial performance of leading video game companies.
+🔍 Evaluation:
+Accuracy, confusion matrix, precision, recall, and F1-score assessments.
+ROC curves to visualize classifier performance.
 
-🔗 [View Project on GitHub](https://github.com/cesarjaidar/portfolio/blob/master/files/Forecasting.py)
+🚀 Model Comparison:
+Logistic Regression achieved higher accuracy, while KNN performance was evaluated for comparison.
+The project highlights the significance of text preprocessing and explores the strengths and weaknesses of different classifiers in sentiment prediction.
+
+🔗 [View Project on GitHub](https://github.com/cesarjaidar/portfolio/blob/master/files/Text%20and%20Sentiment%20Analysis%20Using%20Logistic%20Regression%20and%20KNN.py)
