@@ -1,6 +1,6 @@
 ---
 title: " Medical Diagnosis Prediction (Healthcare)"
-excerpt: "Predict the likelihood of diseases (e.g., diabetes or heart disease) based on patient records and lab results.<br/><img src='/images/500x300.png'>"
+excerpt: "Predict the likelihood of diseases (e.g., diabetes or heart disease) based on patient records and lab results."
 collection: portfolio
 ---
 
