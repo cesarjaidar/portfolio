@@ -20,7 +20,7 @@ from PIL import Image as PILImage
 
 # Define configuration
 API_URL = "https://api.stability.ai/v2beta/stable-image/generate/core" #The core model is their cheaper model
-API_KEY = "sk-IpCXx9RHeYK4m0Nn32hB6EHvs6dzmhVc8lW5UKnBKBq5XpsS"
+API_KEY = "add your key here"
 OUTPUT_FILE = "./dog_christmas_tree.webp"
 
 # We utilized the same prompt that we used in the previoous exercise to see how similar or different this model
