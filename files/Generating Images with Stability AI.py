@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 Author: Cesar Jaidar
-# # DSC670 Week 4 - Generating Images with Stability AI. 
+# # Generating Images with Stability AI. 
 
 # ## This notebook demonstrates how to use the Stable Diffusion API to generate images based on text prompts.
 
