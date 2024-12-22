@@ -1,6 +1,6 @@
 ---
 title: "Fraud Detection (Banking and E-commerce)"
-excerpt: "Build a fraud detection system using transactional data<br/><img src='/images/500x300.png'>"
+excerpt: "Build a fraud detection system using transactional data"
 collection: portfolio
 ---
 
