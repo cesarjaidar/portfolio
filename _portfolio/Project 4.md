@@ -1,7 +1,7 @@
 ---
-title: "GenAI - API to Image"
-excerpt: "Example in Python on how to use an API to generate images<br/><img src='/images/500x300.png'>"
+title: "Image Generation API for Custom Artwork (E-commerce & Design)"
+excerpt: "Create an API that generates custom images based on text prompts using diffusion models or DALL·E."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Users can submit descriptions (e.g., “futuristic cityscape at sunset”), and the API returns high-quality AI-generated artwork. The API can include options for style preferences, resolution, and aspect ratio.
