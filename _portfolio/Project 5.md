@@ -1,11 +1,17 @@
 ---
-title: "Stock Price Forecasting (Finance)"
-excerpt: "Build time-series models (ARIMA, LSTM) to forecast the stock prices of selected companies."
+title: "Clustering and PCA Analysis of ALS Patient Data"
+excerpt: "K-means clustering and PCA are applied to ALS patient data to uncover subgroups based on functional assessments and disease progression."
 collection: portfolio
 ---
 
-Use historical data, including open, close, high, and low prices, to predict future trends and provide insights to investors. Visualize confidence intervals and model accuracy.
+Description:
+This project focuses on clustering anonymized ALS patient data to identify patterns in disease severity and progression. The workflow includes:
 
+🔍 Filtering ALS-relevant data features.
+📏 Standardizing the dataset for clustering.
+📊 K-means clustering to segment patients into distinct groups.
+🧩 PCA for dimensionality reduction and visualization.
+🎨 Scatter plot to visualize clusters based on principal components.
+The results reveal two clusters representing subgroups of ALS patients with differing disease severities and progression rates.
 
-
-🔗 [View Project on GitHub](https://github.com/cesarjaidar/portfolio/blob/master/files/Generating%20Images%20with%20Stability%20AI.py)
+🔗 [View Project on GitHub](https://github.com/cesarjaidar/portfolio/blob/master/files/Descriptive%20Modeling.py)
