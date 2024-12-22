@@ -1,0 +1,89 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# Author: Cesar Jaidar
+
+# # Recommender System
+
+# In[1]:
+
+
+import pandas as pd
+from sklearn.metrics.pairwise import cosine_similarity
+from scipy.sparse import csr_matrix
+
+# Load the datasets
+movies = pd.read_csv('movies.csv')
+ratings = pd.read_csv('ratings.csv')
+
+Creates a dictionary mapping movie titles to IDs, this allows for fast lookups of movie IDs based on titles, improving efficiency when processing user input.
+# In[2]:
+
+
+# Create a dictionary to map movie titles to IDs for faster lookups
+
+movie_id_map = movies.set_index('title')['movieId'].to_dict()
+
+Builds the user-item matrix, this matrix represents user ratings for movies, with users as rows and movies as columns. Filling missing values with 0 ensures compatibility with similarity calculations. Converting it to a sparse format saves memory by storing only non-zero values.
+# In[3]:
+
+
+# Create user-item matrix and convert to sparse format
+
+user_item_matrix = ratings.pivot_table(index='userId', columns='movieId', values='rating').fillna(0)
+user_item_matrix_sparse = csr_matrix(user_item_matrix.values)
+
+Computes and stores the similarity matrix, this matrix represents the cosine similarity between movies, identifying movies with similar rating patterns. Transposing the user-item matrix before computing similarity allows for movie-based recommendations. We store the matrix once to avoid recalculating it unnecessarily.
+# In[4]:
+
+
+# Compute and store movie similarity matrix once
+
+if 'movie_similarity_df' not in globals():
+    movie_similarity_df = pd.DataFrame(
+        cosine_similarity(user_item_matrix_sparse.T),
+        index=user_item_matrix.columns,
+        columns=user_item_matrix.columns
+    )
+
+Defines the recommendation function, checks if the movie title is in the dataset; if not, it returns an error message
+# In[5]:
+
+
+# Define the recommendation function
+
+def recommend_movies(movie_title, movies_df, similarity_df, num_recommendations=10):
+    if movie_title not in movie_id_map:
+        return ["Movie not found in the dataset. Please try another title."]
+    
+    movie_id = movie_id_map[movie_title]
+    similar_movie_ids = similarity_df[movie_id].nlargest(num_recommendations + 1).index[1:]
+    recommended_movies = movies_df[movies_df['movieId'].isin(similar_movie_ids)]
+    return recommended_movies['title'].tolist()
+
+Finds the movie ID for the input title, then retrieves the most similar movies based on the similarity matrix, efficiently selects the top similar movies without sorting all values. It then returns a list of recommended movie titles
+# In[6]:
+
+
+# Prompt user for a movie title
+
+user_movie = input("Enter a movie title you like: ")
+
+Calls the recommend movies function with the user’s selected movie and similarity data, returning a list of recommended titles.
+# In[7]:
+
+
+# Get recommendations
+
+recommendations = recommend_movies(user_movie, movies, movie_similarity_df)
+
+
+# In[8]:
+
+
+# Display recommendations or error message
+
+print("Recommended Movies:")
+for idx, movie in enumerate(recommendations, start=1):
+    print(f"{idx}. {movie}")
+
