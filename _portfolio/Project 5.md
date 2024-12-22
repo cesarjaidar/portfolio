@@ -1,6 +1,6 @@
 ---
 title: "Stock Price Forecasting (Finance)"
-excerpt: "Build time-series models (ARIMA, LSTM) to forecast the stock prices of selected companies.<br/><img src='/images/500x300.png'>"
+excerpt: "Build time-series models (ARIMA, LSTM) to forecast the stock prices of selected companies."
 collection: portfolio
 ---
 
