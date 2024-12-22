@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "GenAI - API to Image"
+excerpt: "Example in Python on how to use an API to generate images<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
