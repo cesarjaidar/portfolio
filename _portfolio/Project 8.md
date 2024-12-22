@@ -1,6 +1,6 @@
 ---
 title: "Movie Recommendation System"
-excerpt: "reate a recommendation engine using collaborative filtering and content-based filtering.<br/><img src='/images/500x300.png'>"
+excerpt: "reate a recommendation engine using collaborative filtering and content-based filtering."
 collection: portfolio
 ---
 
