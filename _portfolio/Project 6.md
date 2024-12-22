@@ -1,6 +1,6 @@
 ---
 title: " Predictive Maintenance"
-excerpt: "Develop a machine learning model to predict equipment failures before they occur<br/><img src='/images/500x300.png'>"
+excerpt: "Develop a machine learning model to predict equipment failures before they occur"
 collection: portfolio
 ---
 
