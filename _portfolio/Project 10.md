@@ -17,3 +17,4 @@ This project involves analyzing stock price trends of top video game companies u
 The project showcases end-to-end data analysis, machine learning, and predictive modeling, providing valuable insights into the financial performance of leading video game companies.
 
 🔗 [View Project on GitHub](https://github.com/cesarjaidar/portfolio/blob/master/files/Forecasting.py)
+🔗 [README](https://github.com/cesarjaidar/portfolio/blob/master/_posts/README.md)
