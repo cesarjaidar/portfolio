@@ -19,3 +19,4 @@ This project showcases the process of generating images from text prompts using 
 The project highlights the strengths and limitations of Stability AI's cost-effective "core" model while exploring the trade-offs between price and output quality.
 
 🔗 [View Project on GitHub](https://github.com/cesarjaidar/portfolio/blob/master/files/Generating%20Images%20with%20Stability%20AI.py)
+🔗 [README](https://github.com/cesarjaidar/portfolio/blob/master/_pages/README.md)
