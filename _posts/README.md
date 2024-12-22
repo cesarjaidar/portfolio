@@ -54,17 +54,7 @@ This project focuses on analyzing and forecasting the stock price trends of the 
 
 5. **Model Evaluation**  
    - Compare ARIMA and LSTM predictions.  
-   - Use metrics like MSE and R² to assess model accuracy.  
-
----
-
-## 📈 Visuals and Outputs  
-
-- **Stock Price Trends**  
-  ![Stock Trends](path/to/stock_trend_plot.png)  
-
-- **Forecasted vs Actual Prices (ARIMA and LSTM)**  
-  ![ARIMA vs LSTM](path/to/arima_lstm_comparison.png)  
+   - Use metrics like MSE and R² to assess model accuracy.   
 
 ---
 
