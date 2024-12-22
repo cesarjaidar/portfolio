@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.S. in Data Science, Belleview University, 2025
+* M.S. in Data Science, Belleview University, Expected 2025
 * B.S. in Software Engineering, Universidad TecMilenio, 2013
 
 Work experience
