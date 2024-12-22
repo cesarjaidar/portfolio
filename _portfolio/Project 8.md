@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Movie Recommendation System"
+excerpt: "reate a recommendation engine using collaborative filtering and content-based filtering.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Train the model on user behavior data and movie metadata to personalize suggestions. This project demonstrates machine learning techniques used in streaming platforms.
