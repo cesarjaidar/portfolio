@@ -10,7 +10,6 @@ I am also pursuing a Master’s degree in Data Science from Belleview University
 
 This GitHub page serves as a platform to track and share my data science projects. Here, I will document practical applications of machine learning, data analysis, and visualization techniques, highlighting both academic and professional projects. I hope this repository not only reflects my progress but also contributes to the broader data science community.
 
-See more info at https://academicpages.github.io/
 
 ## Contact:
 
